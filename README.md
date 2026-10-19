@@ -13,34 +13,54 @@ Dyrex Logistics requires an integrated view of its financial and operational per
 ## Business Questions
 ### 1. Business Overview
  • What are the company’s overall revenue and operational activity levels?
+ 
  • How does revenue vary over time?
+ 
  • Which customers, routes, and truck makes contribute to business activity?
+ 
  • How many loads and trips are recorded?
+ 
  • What proportion of delivery events are completed on time?
+ 
  • How can financial and operational KPIs support management decisions?
  
 ### 2. Customers and Revenue
  • Which customers generate the highest revenue?
+ 
  • How is revenue distributed across customer types?
+ 
  • How do Dry Van and Refrigerated loads compare in volume and revenue?
+ 
  • How do booking arrangements contribute to revenue?
+ 
  • What additional charges and fuel surcharges are associated with loads?
+ 
  • Which customer segments may offer opportunities for improved revenue generation?
  
 ### 3. Drivers and Fleet
  • How many trips are recorded across the fleet?
+ 
  • How do driver revenue and operational performance vary?
+ 
  • How effectively are trucks being utilized?
+ 
  • What patterns exist in mileage and fuel efficiency?
+ 
  • How do fuel costs vary across drivers and fleet operations?
+ 
  • Which areas may require further investigation to improve fleet efficiency?
  
 ### 4. Maintenance and Safety
  • What are the total recorded maintenance costs and downtime?
+ 
  • Which maintenance categories account for the highest costs?
+ 
  • How does maintenance downtime change over time?
+ 
  • How many safety incidents have been recorded?
+ 
  • Which incident categories account for the most incidents and claims?
+ 
  • How can maintenance and safety data support better operational risk management?
  
 ## Data Source
@@ -48,31 +68,48 @@ The project uses a ZIP archive containing 14 CSV datasets, which was extracted i
 The datasets cover the following areas:
 
 **1. Loads:** shipment records, load dates, load types, customers, routes, revenue, fuel surcharges, additional charges, and load status.
+
 **2. Customers:** customer information, customer types, account status, freight preferences, credit terms, and annual revenue potential.
+
 **3.Trips:** trip records, assigned drivers and vehicles, dispatch dates, distance, duration, fuel consumption, and trip status.
+
 **4. Drivers:** driver information, employment status, experience, license details, and home terminals.
+
 **5. Trucks:** truck information, makes, model years, fuel types, acquisition details, and vehicle status.
+
 **6. Trailers:** trailer inventory, trailer types, specifications, acquisition details, and status.
+
 **7. Routes:** route origins and destinations, typical distances, base rates, fuel surcharge rates, and transit times.
+
 **8. Fuel Purchases:** fuel purchase transactions, gallons purchased, fuel prices, transaction costs, and related vehicle and driver references.
+
 **9. Delivery Events:** pickup and delivery events, scheduled and actual timestamps, detention minutes, and on-time indicators.
+
 **10. Maintenance Records:** maintenance activities, maintenance types, labor and parts costs, total costs, and vehicle downtime.
+
 **11. Safety Incidents:** safety incidents, incident categories, preventability, injuries, vehicle damage, cargo damage, and claims.
+
 **12. Facilities:** facility locations, facility types, dock capacity, coordinates, and operating hours.
+
 **13. Driver Monthly Metrics:** monthly driver metrics, including trips, mileage, revenue, fuel efficiency, fuel consumption, and on-time delivery rate.
+
 **14. Druck Utilization Metrics:** monthly truck metrics, including trips, mileage, revenue, utilization rate, maintenance costs, and downtime.
 
 The source records primarily cover 2022–2024, with a small number of delivery and fuel records extending into January 2025.
 
 ## Tools Used
  • Microsoft Excel: Initial data cleaning and preparation.
+ 
  • Power Query: Data import, transformation, and preparation for analysis.
+ 
  • Microsoft Power BI: Data modeling, report development, KPI visualization, and interactive dashboard design.
+ 
  • DAX (Data Analysis Expressions): Development of calculated measures and performance indicators.
 
 ## Data Cleaning and Preparation
 Data preparation was necessary to organize the source datasets and make them suitable for analysis.
 **Microsoft Excel:** Microsoft Excel was used for the initial cleaning and preparation of the data before analysis in Power BI.
+
 **Power Query:** Power Query was used to import and transform the datasets within the Power BI workflow.
 
 ## Data Modeling
@@ -109,116 +146,78 @@ The dashboard provides a basis for investigating maintenance requirements, opera
 ## Key Insights and Findings
 The following findings are based on the financial and operational KPI figures recorded during the project analysis.
 
-1. Revenue Increased
+**1. Revenue Increased**
 
-The dashboard reported total revenue of ₦131,967,009.32, compared with ₦87,732,478.42 in the previous year.
-
+The dashboard reported total revenue of 131,967,009.32, compared with 87,732,478.42 in the previous year.
 This represents an increase of approximately 50.43%, indicating substantial growth in recorded revenue.
 
-2. Costs Increased Alongside Revenue
+**2. Costs Increased Alongside Revenue**
 
-Total costs increased from ₦38,314,385.23 in the previous year to ₦53,926,910.90 in the current period.
-
+Total costs increased from 38,314,385.23 in the previous year to 3,926,910.90 in the current period.
 This represents an increase of approximately 40.74%.
-
 Although costs increased, their percentage growth was lower than revenue growth over the same comparison.
 
-3. Profitability Improved
+**3. Profitability Improved**
 
-Total profit increased from ₦49,418,093.19 to ₦78,040,098.42, representing growth of approximately 57.93%.
-
+Total profit increased from 49,418,093.19 to 78,040,098.42, representing growth of approximately 57.93%.
 Profit grew faster than both revenue and costs, suggesting an improvement in the reported financial outcome over the comparison period.
 
-4. Shipment Volume Increased
+**4. Shipment Volume Increased**
 
 The total number of loads increased from 28,546 to 42,946, representing growth of approximately 50.45%.
-
 This indicates a substantial increase in recorded shipment activity.
 
-5. Total Mileage Increased
+**5. Total Mileage Increased**
 
 Total miles increased from 40,873,956 to 61,437,750, an increase of approximately 50.31%.
-
 This reflects higher recorded transportation activity and highlights the importance of monitoring fuel efficiency, vehicle utilization, and maintenance costs as mileage increases.
 
-6. On-Time Delivery Requires Continued Monitoring
+**6. On-Time Delivery Requires Continued Monitoring**
 
 The dashboard reported an on-time delivery rate of approximately 55.20%.
-
 This metric warrants further investigation to understand delivery performance, identify potential causes of delays, and determine where service improvements may be needed.
-
 The interpretation of this percentage should be considered alongside the report’s measure definition and selected filters.
 
-Summary of Financial and Operational Performance
+## Summary of Financial and Operational Performance
 
 |KPI    |Previous Year |Current Year   |Approximate Change|
-|-------|-------------:|--------------:|-----------------:|
-|Revenue|₦87,732,478.42|₦131,967,009.32|+50.43%           |
-|Cost   |₦38,314,385.23|₦53,926,910.90 |+40.74%           |
-|Profit |₦49,418,093.19|₦78,040,098.42 |+57.93%           |
+|-------|------------- |-------------- |----------------- |
+|Revenue|87,732,478.42 |131,967,009.32 |+50.43%           |
+|Cost   |38,314,385.23 |53,926,910.90  |+40.74%           |
+|Profit |49,418,093.19 |78,040,098.42  |+57.93%           |
 |Loads  |28,546        |42,946         |+50.45%           |
 |Miles  |40,873,956    |61,437,750     |+50.31%           |
 
 Note: Percentage changes are calculated from the reported current-year and previous-year figures. Financial and operational values are presented as displayed in the project analysis.
 
-Recommendations
-
+## Recommendations
 Based on the findings and the analytical areas covered by the dashboards, the following actions are recommended.
 
-1. Maintain Focus on Profitable Growth
+**1. Maintain Focus on Profitable Growth:** Revenue and profit increased during the comparison period. Management should continue monitoring profitability alongside revenue growth to ensure that expansion remains financially sustainable.
 
-Revenue and profit increased during the comparison period. Management should continue monitoring profitability alongside revenue growth to ensure that expansion remains financially sustainable.
+**2. Monitor Operating Costs:** As shipment volume and mileage increase, the company should monitor transportation-related expenses, including fuel and maintenance costs. Comparing costs across routes, vehicles, and periods can help identify opportunities for greater efficiency.
 
-2. Monitor Operating Costs
+**3. Strengthen Customer Performance Monitoring:** Management should review revenue contributions and service performance across customers. This can help identify valuable customer relationships, investigate changes in demand, and support better customer retention strategies.
 
-As shipment volume and mileage increase, the company should monitor transportation-related expenses, including fuel and maintenance costs. Comparing costs across routes, vehicles, and periods can help identify opportunities for greater efficiency.
+**4. Improve Fleet Utilization:** Truck utilization, mileage, fuel efficiency, and downtime should be monitored together. Identifying underutilized vehicles or recurring operational inefficiencies can support better fleet allocation and resource planning.
 
-3. Strengthen Customer Performance Monitoring
+**5. Investigate Delivery Delays:** The reported on-time delivery rate indicates that delivery performance deserves attention. Management should investigate delays by route, driver, facility, and delivery event to identify recurring issues and establish targeted improvements.
 
-Management should review revenue contributions and service performance across customers. This can help identify valuable customer relationships, investigate changes in demand, and support better customer retention strategies.
+**6. Strengthen Preventive Maintenance:** Maintenance records, costs, and downtime should be reviewed to identify recurring repairs and vehicles that require frequent servicing. Preventive maintenance planning may help reduce unexpected downtime and improve fleet availability.
 
-4. Improve Fleet Utilization
+**7. Improve Safety Monitoring:** Safety incidents, preventable accidents, injury indicators, and damage costs should be monitored regularly. Investigating recurring incident patterns can help guide driver training, operational controls, and safety initiatives.
 
-Truck utilization, mileage, fuel efficiency, and downtime should be monitored together. Identifying underutilized vehicles or recurring operational inefficiencies can support better fleet allocation and resource planning.
+**8. Use the Dashboard for Continuous Monitoring:** The interactive Power BI report can support regular performance reviews by allowing management to examine key indicators and investigate changes across the business.
 
-5. Investigate Delivery Delays
-
-The reported on-time delivery rate indicates that delivery performance deserves attention. Management should investigate delays by route, driver, facility, and delivery event to identify recurring issues and establish targeted improvements.
-
-6. Strengthen Preventive Maintenance
-[10/19/2026 6:06 PM] Dyra: Maintenance records, costs, and downtime should be reviewed to identify recurring repairs and vehicles that require frequent servicing. Preventive maintenance planning may help reduce unexpected downtime and improve fleet availability.
-
-7. Improve Safety Monitoring
-
-Safety incidents, preventable accidents, injury indicators, and damage costs should be monitored regularly. Investigating recurring incident patterns can help guide driver training, operational controls, and safety initiatives.
-
-8. Use the Dashboard for Continuous Monitoring
-
-The interactive Power BI report can support regular performance reviews by allowing management to examine key indicators and investigate changes across the business.
-
-Conclusion
-
+## Conclusion
 The Dyrex Logistics Analysis project demonstrates how multiple logistics datasets can be prepared, connected, and analyzed to create an integrated view of financial and operational performance.
 
-Using Microsoft Excel, Power Query, Power BI, and DAX, the project presents insights into revenue, costs, profitability, shipment volume, mileage, customers, drivers, fleet utilization, maintenance, and safety.
+Using Microsoft Excel, Power Query, Power BI, and DAX, the project presents insights into revenue, costs, profitability, shipment volume, mileage, customers, drivers, fleet utilization, maintenance, and safety.The reported results show growth in revenue, profit, load volume, and mileage, while also highlighting the importance of monitoring delivery performance and operating costs.
 
-The reported results show growth in revenue, profit, load volume, and mileage, while also highlighting the importance of monitoring delivery performance and operating costs.
-
-The four-page dashboard provides a foundation for data-driven decision-making by turning structured logistics data into an interactive reporting solution.
-
-This project demonstrates practical skills in data cleaning, data preparation, data modeling, KPI development, DAX calculations, data visualization, and business-focused analysis.
+The four-page dashboard provides a foundation for data-driven decision-making by turning structured logistics data into an interactive reporting solution. This project demonstrates practical skills in data cleaning, data preparation, data modeling, KPI development, DAX calculations, data visualization, and business-focused analysis.
 
 
-
-Project Structure
-
-The project includes the following main components:
-
- ● Source Data: A ZIP archive containing 14 CSV datasets and the database Key Guide.
- ● Power BI Report: Dyrex Logistics Analysis.pbix
- ● Documentation: This README file describing the project, methodology, findings, and recommendations.
-
-Skills Demonstrated
+## Skills Demonstrated
 
  ● Data Cleaning and Preparation
  ● Microsoft Excel
@@ -233,17 +232,4 @@ Skills Demonstrated
  ● Data-Driven Decision-Making
 
 
-Skills Demonstrated
- • Microsoft Excel
- • Power Query
- • Data Cleaning and Preparation
- • Data Modeling
- • DAX Measures
- • KPI Development
- • Customer and Revenue Analysis
- • Fleet and Driver Analysis
- • Maintenance and Safety Analysis
- • Data Visualization
- • Power BI Dashboard Development
- • Business Intelligence
- • Data-Driven Decision-Making
+
