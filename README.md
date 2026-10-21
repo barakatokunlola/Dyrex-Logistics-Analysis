@@ -161,7 +161,8 @@ The Maintenance and Safety dashboard examines vehicle servicing, maintenance cos
 It includes maintenance-related KPIs, maintenance costs by truck make and maintenance type, downtime trends, incident categories, claims, and geographical incident distribution.
 The dashboard provides a basis for investigating maintenance requirements, operational risks, and opportunities to improve vehicle reliability and safety.
 
-![image alt](
+![image alt](https://github.com/barakatokunlola/Dyrex-Logistics-Analysis/blob/1e1a74b138c222786d0ee9363f795de52a21e00d/Maintenance%20and%20Safety.PNG)
+Maintenance and Safety
 
 ## Key Insights and Findings
 The following findings are based on the financial and operational KPI figures recorded during the project analysis.
