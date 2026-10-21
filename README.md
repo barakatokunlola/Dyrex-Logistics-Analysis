@@ -112,6 +112,9 @@ Data preparation was necessary to organize the source datasets and make them sui
 
 **Power Query:** Power Query was used to import and transform the datasets within the Power BI workflow.
 
+ ![image alt](
+
+
 ## Data Modeling
 The datasets contain related identifiers, including customer_id, load_id, trip_id, driver_id, and truck_id.
 These relationships support the integration of financial and operational data for analysis across customers, loads, trips, drivers, vehicles, maintenance activities, and delivery events.
@@ -150,10 +153,15 @@ The Drivers and Fleet dashboard focuses on transportation operations and resourc
 Its visuals examine driver performance, trip activity, fuel costs, mileage, fuel efficiency, and fleet utilization.
 This page helps management investigate differences in operational performance and identify areas where vehicle and driver resources may be used more effectively.
 
+![image alt](https://github.com/barakatokunlola/Dyrex-Logistics-Analysis/blob/40e62833199e8202b22e3416ff4b24df32fa5bfa/Drivers%20and%20Fleet.PNG)
+Drivers and Fleet
+
 ### 4. Maintenance and Safety
 The Maintenance and Safety dashboard examines vehicle servicing, maintenance costs, downtime, and safety incidents.
 It includes maintenance-related KPIs, maintenance costs by truck make and maintenance type, downtime trends, incident categories, claims, and geographical incident distribution.
 The dashboard provides a basis for investigating maintenance requirements, operational risks, and opportunities to improve vehicle reliability and safety.
+
+![image alt](
 
 ## Key Insights and Findings
 The following findings are based on the financial and operational KPI figures recorded during the project analysis.
