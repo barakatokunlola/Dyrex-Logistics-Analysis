@@ -113,7 +113,7 @@ Data preparation was necessary to organize the source datasets and make them sui
 **Power Query:** Power Query was used to import and transform the datasets within the Power BI workflow.
 
  ![image alt](https://github.com/barakatokunlola/Dyrex-Logistics-Analysis/blob/02fe2ac5d7bc0c028178225353d774c504af3dd0/merged-image%20(2).png)
-
+Cleaned Dataset
 
 ## Data Modeling
 The datasets contain related identifiers, including customer_id, load_id, trip_id, driver_id, and truck_id.
