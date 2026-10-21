@@ -123,7 +123,6 @@ Modelling
 DAX was used in the Power BI report to create calculated measures and key performance indicators. The report includes measures for revenue, costs, profit, loads, mileage, delivery performance, driver and fleet performance, and maintenance and safety indicators.
 
 ![image alt](https://github.com/barakatokunlola/Dyrex-Logistics-Analysis/blob/bcbb2095026d47cd3335e40c75beacddf4b3f887/DAX.PNG)
-
 DAX
 
 ## Data Analysis
@@ -143,7 +142,8 @@ The Customers and Revenue dashboard examines customer contributions and revenue 
 Its analytical components include customer-related KPIs, revenue comparisons, revenue by load type, revenue by customer type, and additional charges.
 The dashboard supports the evaluation of customer segments and shipment categories to identify important sources of revenue and potential business opportunities.
 
-![image alt](
+![image alt](https://github.com/barakatokunlola/Dyrex-Logistics-Analysis/blob/101f0cbcb069e9d11d3f773adbbb47319daf207e/Customers%20nd%20Revenue.PNG)
+Customers and Revenue
 
 ### 3. Drivers and Fleet
 The Drivers and Fleet dashboard focuses on transportation operations and resource utilization.
