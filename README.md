@@ -116,10 +116,13 @@ Data preparation was necessary to organize the source datasets and make them sui
 The datasets contain related identifiers, including customer_id, load_id, trip_id, driver_id, and truck_id.
 These relationships support the integration of financial and operational data for analysis across customers, loads, trips, drivers, vehicles, maintenance activities, and delivery events.
 
- ![image alt](
+ ![image alt](https://github.com/barakatokunlola/Dyrex-Logistics-Analysis/blob/c55968fc04b764b54818eb4d4b6c267b47be3c02/Modelling%20Logistics.PNG)
+Modelling
 
 ## DAX Measures
 DAX was used in the Power BI report to create calculated measures and key performance indicators. The report includes measures for revenue, costs, profit, loads, mileage, delivery performance, driver and fleet performance, and maintenance and safety indicators.
+
+![image alt](
 
 ## Data Analysis
 The Power BI report is organized into four dashboard pages.
