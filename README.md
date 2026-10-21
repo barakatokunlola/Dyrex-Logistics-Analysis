@@ -241,15 +241,25 @@ The four-page dashboard provides a foundation for data-driven decision-making by
 ## Skills Demonstrated
 
  ● Data Cleaning and Preparation
+ 
  ● Microsoft Excel
+
  ● Power Query
+
  ● Data Modeling
+
  ● DAX Measures
+ 
  ● KPI Development
+
  ● Year-over-Year Analysis
+
  ● Data Visualization
+
  ● Power BI Dashboard Development
+
  ● Business Intelligence
+
  ● Data-Driven Decision-Making
 
 
